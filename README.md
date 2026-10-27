@@ -1,49 +1,52 @@
 <div align="center">
 
-  <h1>
-    <img src="./assets/Logo.png" alt="ScreenShade Logo" width="48" height="48" style="vertical-align: middle; border-radius: 10px;" />
-    ScreenShade
-  </h1>
+# <picture><img src="assets/Logo.png" alt="ScreenShade Logo" width="48" style="vertical-align: middle; display: inline-block; margin-bottom: 4px;" /></picture> ScreenShade
 
-  Un'applicazione open-source progettata per la protezione e la gestione dello schermo su unità automotive e dispositivi Android.
+An open-source application designed for screen protection and management on automotive units and Android devices.
 
-  <br>
+<br>
 
-  <table align="center" border="0" cellspacing="0" cellpadding="10">
-    <tr>
-      <td align="center" valign="middle">
-        <a href="URL_GOOGLE_PLAY">
-          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="55" alt="Get it on Google Play">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="URL_FDROID">
-          <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="55" alt="Get it on F-Droid">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/Harvest-Code/ScreenShade/releases">
-          <img src="https://img.shields.io/badge/GitHub-Releases-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="GitHub Releases">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://ko-fi.com/harvestcode">
-          <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" height="38" alt="Support me on Ko-fi">
-        </a>
-      </td>
-    </tr>
-  </table>
+<table align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td align="center" valign="middle">
+      <a href="URL_GOOGLE_PLAY">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="55" alt="Get it on Google Play">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="URL_FDROID">
+        <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="55" alt="Get it on F-Droid">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://github.com/Harvest-Code/ScreenShade/releases">
+        <img src="https://img.shields.io/badge/GitHub-Releases-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="GitHub Releases">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://ko-fi.com/harvestcode">
+        <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" height="38" alt="Support me on Ko-fi">
+      </a>
+    </td>
+  </tr>
+</table>
 
-  <br>
+<br>
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-  [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20%28API%2026%2B%29-green.svg)](https://developer.android.com)
-  [![Offline](https://img.shields.io/badge/Network-100%25%20Offline-brightgreen.svg)](PRIVACY.md)
-  [![Ko-fi Support](https://img.shields.io/badge/Support-Ko--fi-ff5e5b.svg)](https://ko-fi.com/harvestcode)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20%28API%2026%2B%29-green.svg)](https://developer.android.com)
+[![Offline](https://img.shields.io/badge/Network-100%25%20Offline-brightgreen.svg)](PRIVACY.md)
+[![Ko-fi Support](https://img.shields.io/badge/Support-Ko--fi-ff5e5b.svg)](https://ko-fi.com/harvestcode)
 
-  <br><br>
+<br>
 
-  <img src="./assets/Preview%20image.jpg" alt="ScreenShade Preview" width="800" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle">
+      <img src="./assets/Preview%20image.jpg" alt="ScreenShade Preview" width="700" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
