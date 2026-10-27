@@ -1,36 +1,38 @@
-# Informativa sulla Privacy – ScreenShade
+# Privacy Policy – ScreenShade
 
-_Ultimo aggiornamento: 24 ottobre 2026_
+_Last updated: October 24, 2026_
 
-## 1. Funzionamento 100% offline
-ScreenShade funziona **interamente offline**. L'applicazione **non dichiara né richiede** il permesso `android.permission.INTERNET` (né altri permessi di rete): non è tecnicamente in grado di connettersi alla rete, inviare dati o ricevere informazioni dall'esterno.
+## 1. 100% Offline Operation
+ScreenShade operates **entirely offline**. The application **does not declare or request** the `android.permission.INTERNET` permission (nor any other network permissions): it is technically incapable of connecting to the network, transmitting data, or receiving information from external sources.
 
-## 2. Dati personali e tracciamento
-ScreenShade **non raccoglie, non trasmette e non conserva su server remoti** alcun dato personale, identificativo pubblicitario, informazione di utilizzo, telemetria, log diagnostico o report di crash. L'applicazione non include SDK di terze parti, librerie pubblicitarie, tracker analitici o sistemi di profilazione.
+## 2. Personal Data and Tracking
+ScreenShade **does not collect, transmit, or store on remote servers** any personal data, advertising identifiers, usage information, telemetry, diagnostic logs, or crash reports. The application includes no third-party SDKs, advertising libraries, analytical trackers, or profiling systems.
 
-## 3. Archiviazione locale e sicurezza
-Le sole informazioni memorizzate (preferenze di luminosità software, filtro colore cromatico, abilitazione tracciamento solare, lingua dell'interfaccia, tema grafico, flag di accettazione dell'avviso legale, stato del toggle di automazione e ultime coordinate geografiche approssimative) risiedono **esclusivamente nella sandbox locale dell'app** (`SharedPreferences`).
-* **Protezione Backup:** Il backup di sistema è esplicitamente disabilitato (`android:allowBackup="false"`), impedendo l'estrazione automatica o non autorizzata dei dati tramite comandi ADB o backup cloud.
-* **Cancellazione:** La disinstallazione dell'applicazione o la cancellazione dei dati dell'app da parte dell'utente elimina definitivamente tutte le impostazioni memorizzate.
+## 3. Local Storage and Security
+The only information stored (software brightness preferences, chromatic color filter settings, solar tracking enablement, interface language, graphic theme, legal disclaimer acceptance flags, automation toggle state, and approximate latest geographic coordinates) resides **exclusively within the app's local sandbox** (`SharedPreferences`).
+- **Backup Protection:** System backup is explicitly disabled (`android:allowBackup="false"`), preventing automatic or unauthorized data extraction via ADB commands or cloud backups.
 
-## 4. Permessi utilizzati
-| Permesso | Scopo tecnico | Dati trasmessi |
+- **Data Deletion:** Uninstalling the application or clearing the app's data permanently deletes all stored settings.
+
+## 4. Permissions Used
+| Permission | Technical Purpose | Data Transmitted |
 |---|---|---|
-| `SYSTEM_ALERT_WINDOW` | Mostrare il velo opaco di oscuramento e i filtri cromatici sopra le altre applicazioni | Nessuno |
-| `RECEIVE_BOOT_COMPLETED` | Ripristinare lo stato del filtro all'accensione del dispositivo o dell'autoradio (se abilitato dall'utente) | Nessuno |
-| `FOREGROUND_SERVICE` / `FOREGROUND_SERVICE_SPECIAL_USE` | Mantenere attivo il servizio di overlay grafico in background | Nessuno |
-| `POST_NOTIFICATIONS` | Mostrare la notifica di stato del servizio con pulsante fail-safe di arresto immediato | Nessuno |
-| `ACCESS_COARSE_LOCATION` | Utilizzato solo su pressione esplicita dell'utente per ricavare latitudine e longitudine approssimative al fine di calcolare alba e tramonto tramite l'algoritmo matematico offline NOAA | Nessuno: le coordinate rimangono confinate nel dispositivo e non transitano mai su reti |
+| `SYSTEM_ALERT_WINDOW` | To display the opaque dimming veil and color filters over other applications | None |
+| `RECEIVE_BOOT_COMPLETED` | To restore the filter state upon device or head-unit startup (if enabled by the user) | None |
+| `FOREGROUND_SERVICE` / `FOREGROUND_SERVICE_SPECIAL_USE` | To keep the background graphic overlay service active | None |
+| `POST_NOTIFICATIONS` | To display the service status notification with a fail-safe immediate stop button | None |
+| `ACCESS_COARSE_LOCATION` | Used solely upon explicit user action to obtain approximate latitude and longitude to calculate sunrise and sunset using the offline NOAA mathematical algorithm | None: coordinates remain confined to the device and never transit across networks |
 
 > [!NOTE]
-> Per garantire la piena compatibilità con app di automazione standard (Tasker, MacroDroid) e comandi ADB shell senza richiedere permessi speciali a tali app, `AutomationReceiver` è protetto da un gate di sicurezza logico interno: tutti i comandi broadcast in arrivo vengono scartati e ignorati a meno che l'utente non abbia esplicitamente abilitato l'interruttore "Abilita Automazione Esterna" nelle impostazioni dell'app e accettato il disclaimer legale. Inoltre, l'attenuazione massima è limitata rigidamente all'85% per impedire black-out accidentali o malevoli dello schermo.
+> To ensure full compatibility with standard automation apps (Tasker, MacroDroid) and ADB shell commands without requiring special permissions for those apps, `AutomationReceiver` is protected by an internal logical security gate: all incoming broadcast commands are dropped and ignored unless the user has explicitly enabled the "Enable External Automation" switch in the app settings and accepted the legal disclaimer. Additionally, maximum dimming is strictly limited to 85% to prevent accidental or malicious screen blackouts.
 
-## 5. Link esterni e differenziazione release (F-Droid vs Google Play)
-* Nelle build distribuite tramite F-Droid e GitHub, l'interfaccia può contenere un pulsante verso la pagina Ko-fi dello sviluppatore per consentire donazioni libere e spontanee a sostegno dello sviluppo open-source. La navigazione verso Ko-fi avviene interamente nel browser web predefinito dell'utente ed è disciplinata dalle policy sulla privacy di Ko-fi.
-* Nelle build compilate per il Google Play Store, ogni collegamento o riferimento a piattaforme esterne di donazione è interamente disabilitato e rimosso dalla UI.
+## 5. External Links and Release Differentiation (F-Droid vs Google Play)
+- In builds distributed via F-Droid and GitHub, the interface may contain a button linking to the developer's Ko-fi page to allow free and voluntary donations in support of open-source development. Navigation to Ko-fi takes place entirely within the user's default web browser and is governed by Ko-fi's privacy policies.
 
-## 6. Minori e modifiche
-ScreenShade non raccoglie dati di alcun tipo da alcun utente, inclusi i minori. Qualsiasi futuro aggiornamento della presente informativa sarà pubblicato in questo file all'interno del repository del progetto.
+- In builds compiled for the Google Play Store, any links or references to external donation platforms are entirely disabled and removed from the UI.
 
-## 7. Contatti
-Per domande o segnalazioni tecniche è possibile aprire una issue sul repository ufficiale del progetto.
+## 6. Minors and Updates
+ScreenShade does not collect data of any kind from any user, including minors. Any future updates to this policy will be published within this file in the project's repository.
+
+## 7. Contacts
+For questions or technical reports, you can open an issue on the project's official repository.
