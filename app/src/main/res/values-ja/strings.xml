@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenShade</string>
+    <string name="toolbar_title">🕶️ ScreenShade</string>
+    <string name="toolbar_subtitle">画面フィルター＆超低輝度調光</string>
+    <string name="hero_desc">ソフトウェア減光ベール：ディスプレイのハードウェア限界を超えて画面を暗くし、夜間ドライブ中の目を保護します。</string>
+    <string name="solar_sunrise_chip">☀️ %1$s</string>
+    <string name="solar_sunset_chip">🌙 %1$s</string>
+    <string name="solar_phase_format">フェーズ: %1$s</string>
+    <string name="solar_phase_default">フェーズ: --</string>
+    <string name="solar_phase_day">昼間</string>
+    <string name="solar_phase_twilight">薄暮</string>
+    <string name="solar_phase_night">夜間</string>
+    <string name="status_pill_active">有効</string>
+    <string name="status_pill_inactive">無効</string>
+
+    <!-- ナビゲーションとメニュー -->
+    <string name="menu_language">言語</string>
+    <string name="menu_kofi">Ko-fiで開発者を支援</string>
+    <string name="menu_github">ソースコード (GitHub)</string>
+    <string name="menu_automation">自動化とAPI</string>
+    <string name="menu_disclaimer">法的情報と免責事項</string>
+    <string name="menu_settings">設定</string>
+
+    <!-- ボタンとFAB -->
+    <string name="btn_close">閉じる</string>
+    <string name="close_button">閉じる</string>
+    <string name="btn_next">次へ</string>
+    <string name="btn_back">戻る</string>
+    <string name="btn_finish">始める</string>
+    <string name="quick_toggle_shade">シェード切り替え</string>
+    <string name="overlay_status_active">オーバーレイ有効</string>
+    <string name="overlay_status_inactive">オーバーレイ無効</string>
+    <string name="btn_turn_on">オン</string>
+    <string name="btn_turn_off">オフ</string>
+    <string name="fab_activate">ScreenShadeを有効化</string>
+    <string name="fab_active">シェード作動中</string>
+
+    <!-- ステータスバッジ -->
+    <string name="status_badge_active">有効</string>
+    <string name="status_badge_inactive">無効</string>
+    <string name="status_mode_manual">手動モード</string>
+    <string name="status_mode_solar">太陽光連動 (NOAA)</string>
+
+    <!-- クイックプリセット -->
+    <string name="section_presets">クイックプリセット</string>
+    <string name="preset_day">昼間 / 休息</string>
+    <string name="preset_night">深夜</string>
+    <string name="preset_cinema">シネマ</string>
+    <string name="preset_reading">読書 / セピア</string>
+    <string name="preset_mono">白黒モノクロ</string>
+
+    <!-- 法的情報 -->
+    <string name="legal_dialog_title">法的情報とGNU GPLv3ライセンス</string>
+    <string name="legal_dialog_content" formatted="false">GNU GENERAL PUBLIC LICENSE (v3.0)\n\nScreenShadeは自由なオープンソースソフトウェアです。Free Software Foundationが公開するGNU一般公衆利用許諾契約書の条件に従い、再頒布または変更することができます。\n\n現状有姿（\"AS-IS\"）免責事項：\n本プログラムは有用であることを願って頒布されますが、いかなる保証もありません。商品性または特定目的への適合性の暗黙の保証も含まれません。\n\n運転安全に関する注意：\n車両の運転中に画面を操作しないでください。画面の視認性および交通安全の全責任はユーザーに帰属します。\n\nプライバシー保証：\n100%オフライン、インターネット権限なし、遠隔測定なし、データ収集なし。</string>
+
+    <!-- サービス通知 -->
+    <string name="notification_channel_name">ScreenShade 有効</string>
+    <string name="notification_channel_desc">減光オーバーレイを維持するための常駐通知</string>
+    <string name="notification_title">ScreenShade 実行中</string>
+    <string name="notification_text">ソフトウェア調光と色調フィルターが作動しています</string>
+    <string name="notification_status_format">調光: %1$d%% | %2$s</string>
+    <string name="notification_action_stop">停止</string>
+
+    <!-- ダッシュボード -->
+    <string name="section_overlay">オーバーレイ減光コントロール</string>
+    <string name="switch_overlay">減光ベールを有効にする</string>
+    <string name="switch_overlay_desc">ハードウェアの最小限界を超えて画面を暗くします</string>
+    
+    <string name="label_brightness">ソフトウェア減光（ベールの濃度）</string>
+    <string name="desc_brightness" formatted="false">半透明の黒いベールを重ねます（0% - 90%）</string>
+
+    <string name="section_filters">カラー＆ブルーライトフィルター</string>
+    <string name="filter_none">なし（標準）</string>
+    <string name="filter_warm">暖色 / ブルーライトカット</string>
+    <string name="filter_sepia">セピア読書</string>
+    <string name="filter_mono">モノクロ（高コントラスト）</string>
+    <string name="filter_custom">カスタムRGB色調</string>
+
+    <string name="label_filter_intensity">フィルター強度</string>
+    <string name="label_transition_speed">切り替え速度</string>
+    <string name="transition_fast">高速 (500ms)</string>
+    <string name="transition_normal">スムーズ (1.5秒)</string>
+    <string name="transition_slow">ゆるやか (5秒)</string>
+
+    <!-- 太陽光エンジン -->
+    <string name="section_solar">天文学的ソーラーエンジン</string>
+    <string name="switch_solar">ダイナミックソーラーモード</string>
+    <string name="switch_solar_desc">太陽高度に合わせて減光と暖色トーンを自動調整</string>
+    <string name="solar_status_elevation">太陽高度: %1$.1f°</string>
+    <string name="solar_status_sunrise">日の出: %1$s</string>
+    <string name="solar_status_sunset">日の入り: %1$s</string>
+    <string name="solar_status_twilight">常用薄暮: %1$s</string>
+    <string name="solar_location_btn">位置情報を取得</string>
+    <string name="solar_location_manual">座標: 緯度 %1$.2f, 経度 %2$.2f</string>
+    <string name="solar_location_unavailable">位置情報が取得できないため手動座標を使用中</string>
+
+    <!-- 起動設定 -->
+    <string name="section_boot">車載MCU＆システム起動設定</string>
+    <string name="switch_boot">システム起動時に自動開始</string>
+    <string name="switch_boot_desc">Androidや車載ナビMCUの起動に合わせて自動開始</string>
+    <string name="switch_silent_boot">サイレント起動（バックグラウンド）</string>
+    <string name="switch_silent_boot_desc">画面を開かずにバックグラウンドで静かにオーバーレイを実行</string>
+
+    <!-- テーマ -->
+    <string name="section_appearance">外観とテーマ</string>
+    <string name="theme_system">システム設定に従う</string>
+    <string name="theme_light">ライトテーマ</string>
+    <string name="theme_dark">ダークテーマ（車載におすすめ）</string>
+
+    <!-- 権限 -->
+    <string name="permission_overlay_title">オーバーレイ権限が必要です</string>
+    <string name="permission_overlay_desc">ScreenShadeが最小輝度を超えて減光するには「他のアプリの上に重ねて表示」の権限が必要です。</string>
+    <string name="permission_grant_btn">権限を許可する</string>
+    <string name="permission_status_granted">ステータス: 許可済み ✓</string>
+    <string name="permission_status_missing">ステータス: 権限がまだ許可されていません</string>
+
+    <!-- 初期設定ウィザード -->
+    <string name="onboarding_title">ScreenShadeへようこそ</string>
+    <string name="onboarding_step_format">ステップ %1$d / %2$d</string>
+    <string name="onboarding_select_lang_prompt">言語を選択してください / Select language:</string>
+    <string name="onboarding_step1_title">言語の選択</string>
+    <string name="onboarding_step2_title">プライバシーと安全上の免責事項</string>
+    <string name="onboarding_step3_title">必要な権限</string>
+    <string name="onboarding_step4_title">設定完了</string>
+    <string name="onboarding_ready_title">快適で安全な夜間ドライブの準備が整いました！</string>
+    <string name="onboarding_ready_desc">ScreenShadeが優しい減光で目の疲れを和らげ、夜間の視界を守ります。</string>
+
+    <string name="privacy_title" formatted="false">100% オフライン＆追跡ゼロ</string>
+    <string name="privacy_body">ScreenShadeはインターネット接続権限を持ちません。テレメトリ、広告、トラッカーはなく、データが端末外へ出ることは一切ありません。GDPR完全準拠設計。</string>
+    
+    <string name="disclaimer_safety_title">運転中の安全性とライセンス</string>
+    <string name="disclaimer_safety_body">警告：自動車の運転中に設定を変更しないでください。ScreenShadeはGNU GPLv3に基づき無保証で提供されます。画面の視認性および安全運転の責任はすべて利用者にあります。</string>
+    <string name="disclaimer_accept_checkbox">規約を理解し同意します</string>
+
+    <!-- Ko-fi 寄付 -->
+    <string name="kofi_card_desc">ScreenShadeは完全無料の自由なソフトウェアです。夜間の運転やカーオーディオでお役に立ちましたら、ぜひコーヒーをご馳走してください！</string>
+    <string name="kofi_button_label">Ko-fiでコーヒーをご馳走する</string>
+    <string name="kofi_btn_label">Ko-fiでコーヒーをご馳走する</string>
+
+    <!-- 自動化 -->
+    <string name="automation_title">ブロードキャストAPIと自動化</string>
+    <string name="automation_desc">Tasker、MacroDroid、ADBコマンドなど外部から操作可能：</string>
+    <string name="switch_external_automation">外部自動化を有効化</string>
+    <string name="switch_external_automation_desc">外部アプリ（Tasker、MacroDroid）やADBシェルコマンドがブロードキャスト経由でScreenShadeを制御できるようにします。安全のためデフォルトで無効になっています。</string>
+    <string name="automation_toggle">切り替え: am broadcast -a com.screenshade.ACTION_TOGGLE</string>
+    <string name="automation_start">開始: am broadcast -a com.screenshade.ACTION_START</string>
+    <string name="automation_stop">停止: am broadcast -a com.screenshade.ACTION_STOP</string>
+    <string name="automation_dim">輝度: am broadcast -a com.screenshade.ACTION_SET_BRIGHTNESS --ef brightness 0.45</string>
+    <string name="automation_filter">フィルター: am broadcast -a com.screenshade.ACTION_SET_FILTER --es filter WARM</string>
+
+    <!-- Legal disclaimer and Ko-fi -->
+    <string name="legal_disclaimer_title">法的通知と交通安全</string>
+    <string name="legal_disclaimer_automotive">交通安全に関する警告：本アプリはオープンソースのツールであり、明示・黙示を問わずいかなる保証もなく「現状有姿（AS IS）」で提供されます。交通法規の遵守および運転中の安全については、ユーザーが単独で責任を負います。走行中にユーザーインターフェースを操作したり設定を変更したりすることは固く禁止されています。開発者は、本アプリの使用に直接または間接に起因する事故、行政上の罰則、機械的・電子的故障、またはカーオーディオ／車載システムの不具合について、民事上・刑事上の一切の責任を負いません。</string>
+    <string name="legal_accept">理解して同意します</string>
+    <string name="legal_exit">終了</string>
+    <string name="kofi_card_title">独立開発を支援する</string>
+    <string name="kofi_card_description">本ソフトウェアは完全無料のオープンソース（GNU GPLv3）で、広告・トラッキング・プロファイリングは一切ありません。プロジェクトを気に入っていただけて、開発に費やした時間を応援したい場合は、Ko-fiで自由意思による任意の寄付としてコーヒーをご馳走いただけます。その見返りとして提供される機能、サービス、特典はありません。</string>
+
+    <!-- GitHub Open Source Bridge (Google Play compliant) -->
+    <string name="github_card_title">オープンソースプロジェクト</string>
+    <string name="github_card_description" formatted="false">ScreenShadeは100%無料のオープンソースソフトウェア（GNU GPLv3）です。ソースコードの確認、貢献、問題報告はGitHubで行えます。</string>
+    <string name="github_button_label">GitHubで表示</string>
+</resources>

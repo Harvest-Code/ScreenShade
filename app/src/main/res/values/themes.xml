@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme inheriting Material 3 Dynamic Colors -->
+    <style name="Theme.ScreenShade" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar configuration -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ShapeAppearance.ScreenShade.Pill" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>

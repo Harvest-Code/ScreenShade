@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenShade</string>
+    <string name="toolbar_title">🕶️ ScreenShade</string>
+    <string name="toolbar_subtitle">Фильтр экрана и затемнение</string>
+    <string name="hero_desc">Программная вуаль затемнения: регулирует яркость ниже аппаратного минимума дисплея для защиты глаз ночью.</string>
+    <string name="solar_sunrise_chip">☀️ %1$s</string>
+    <string name="solar_sunset_chip">🌙 %1$s</string>
+    <string name="solar_phase_format">Фаза: %1$s</string>
+    <string name="solar_phase_default">Фаза: --</string>
+    <string name="solar_phase_day">День</string>
+    <string name="solar_phase_twilight">Сумерки</string>
+    <string name="solar_phase_night">Ночь</string>
+    <string name="status_pill_active">АКТИВЕН</string>
+    <string name="status_pill_inactive">НЕАКТИВЕН</string>
+
+    <!-- Навигация и меню -->
+    <string name="menu_language">Язык</string>
+    <string name="menu_kofi">Поддержать на Ko-fi</string>
+    <string name="menu_github">Исходный код (GitHub)</string>
+    <string name="menu_automation">Автоматизация и API</string>
+    <string name="menu_disclaimer">Правовая информация</string>
+    <string name="menu_settings">Настройки</string>
+
+    <!-- Кнопки и FAB -->
+    <string name="btn_close">Закрыть</string>
+    <string name="close_button">Закрыть</string>
+    <string name="btn_next">Далее</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_finish">Начать</string>
+    <string name="quick_toggle_shade">Переключить фильтр</string>
+    <string name="overlay_status_active">Оверлей активен</string>
+    <string name="overlay_status_inactive">Оверлей неактивен</string>
+    <string name="btn_turn_on">Включить</string>
+    <string name="btn_turn_off">Выключить</string>
+    <string name="fab_activate">Включить ScreenShade</string>
+    <string name="fab_active">Фильтр активен</string>
+
+    <!-- Статусы -->
+    <string name="status_badge_active">АКТИВЕН</string>
+    <string name="status_badge_inactive">НЕАКТИВЕН</string>
+    <string name="status_mode_manual">Ручной режим</string>
+    <string name="status_mode_solar">Солнечный (NOAA)</string>
+
+    <!-- Профили -->
+    <string name="section_presets">Быстрые профили</string>
+    <string name="preset_day">День / Отдых</string>
+    <string name="preset_night">Глубокая ночь</string>
+    <string name="preset_cinema">Кино</string>
+    <string name="preset_reading">Чтение / Сепия</string>
+    <string name="preset_mono">Черно-белый</string>
+
+    <!-- Правовая информация -->
+    <string name="legal_dialog_title">Правовая информация и GNU GPLv3</string>
+    <string name="legal_dialog_content" formatted="false">GNU GENERAL PUBLIC LICENSE (v3.0)\n\nScreenShade — свободное программное обеспечение с открытым исходным кодом: вы можете распространять и/или изменять его в соответствии с условиями лицензии GNU General Public License.\n\nОТКАЗ ОТ ОТВЕТСТВЕННОСТИ (\"КАК ЕСТЬ\"):\nЭта программа распространяется в надежде, что она будет полезной, но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ; даже без подразумеваемой гарантии ТОВАРНОЙ ПРИГОДНОСТИ или ПРИМЕНИМОСТИ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ.\n\nБЕЗОПАСНОСТЬ ДОРОЖНОГО ДВИЖЕНИЯ:\nНе настраивайте приложение во время управления транспортным средством. Вы несете полную ответственность за читаемость экрана и безопасность на дороге.\n\nКОНФИДЕНЦИАЛЬНОСТЬ:\n100% оффлайн, ноль разрешений интернета, никакой телеметрии и сбора данных.</string>
+
+    <!-- Уведомление службы -->
+    <string name="notification_channel_name">ScreenShade активен</string>
+    <string name="notification_channel_desc">Постоянное уведомление для поддержания работы фильтра затемнения</string>
+    <string name="notification_title">ScreenShade работает</string>
+    <string name="notification_text">Программное затемнение и цветовой фильтр активны</string>
+    <string name="notification_status_format">Затемнение: %1$d%% | %2$s</string>
+    <string name="notification_action_stop">Остановить</string>
+
+    <!-- Панель управления -->
+    <string name="section_overlay">Управление оверлеем</string>
+    <string name="switch_overlay">Включить вуаль затемнения</string>
+    <string name="switch_overlay_desc">Затемнение дисплея ниже физического минимума</string>
+    
+    <string name="label_brightness">Программное затемнение (глубина вуали)</string>
+    <string name="desc_brightness" formatted="false">Накладывает прозрачную черную вуаль (0% - 90%)</string>
+
+    <string name="section_filters">Цветовые фильтры и синий свет</string>
+    <string name="filter_none">Нет (Нейтральный)</string>
+    <string name="filter_warm">Теплый / Против синего света</string>
+    <string name="filter_sepia">Сепия для чтения</string>
+    <string name="filter_mono">Монохромный (Высокий контраст)</string>
+    <string name="filter_custom">Пользовательский RGB-оттенок</string>
+
+    <string name="label_filter_intensity">Интенсивность фильтра</string>
+    <string name="label_transition_speed">Скорость перехода</string>
+    <string name="transition_fast">Быстро (500мс)</string>
+    <string name="transition_normal">Плавно (1.5с)</string>
+    <string name="transition_slow">Медленно (5с)</string>
+
+    <!-- Солнечный модуль -->
+    <string name="section_solar">Астрономический солнечный алгоритм</string>
+    <string name="switch_solar">Динамический солнечный режим</string>
+    <string name="switch_solar_desc">Автоматическая регулировка по высоте солнца над горизонтом</string>
+    <string name="solar_status_elevation">Высота солнца: %1$.1f°</string>
+    <string name="solar_status_sunrise">Восход: %1$s</string>
+    <string name="solar_status_sunset">Закат: %1$s</string>
+    <string name="solar_status_twilight">Гражданские сумерки: %1$s</string>
+    <string name="solar_location_btn">Определить координаты</string>
+    <string name="solar_location_manual">Координаты: Шир %1$.2f, Долг %2$.2f</string>
+    <string name="solar_location_unavailable">Геолокация недоступна, используются ручные координаты</string>
+
+    <!-- Автозапуск -->
+    <string name="section_boot">Автозапуск и магнитолы MCU</string>
+    <string name="switch_boot">Запуск при загрузке системы</string>
+    <string name="switch_boot_desc">Автостарт при включении Android / магнитолы MCU</string>
+    <string name="switch_silent_boot">Тихий запуск (в фоне)</string>
+    <string name="switch_silent_boot_desc">Запускать службу оверлея в фоне без открытия экрана</string>
+
+    <!-- Тема -->
+    <string name="section_appearance">Внешний вид и тема</string>
+    <string name="theme_system">Системная тема</string>
+    <string name="theme_light">Светлая тема</string>
+    <string name="theme_dark">Темная тема (рекомендуется для авто)</string>
+
+    <!-- Разрешения -->
+    <string name="permission_overlay_title">Требуется разрешение на оверлей</string>
+    <string name="permission_overlay_desc">ScreenShade требуется разрешение \"Поверх других приложений\" для затемнения экрана ниже аппаратного минимума.</string>
+    <string name="permission_grant_btn">Предоставить разрешение</string>
+    <string name="permission_status_granted">Статус: Предоставлено ✓</string>
+    <string name="permission_status_missing">Статус: Разрешение не предоставлено</string>
+
+    <!-- Мастер настройки -->
+    <string name="onboarding_title">Добро пожаловать в ScreenShade</string>
+    <string name="onboarding_step_format">Шаг %1$d из %2$d</string>
+    <string name="onboarding_select_lang_prompt">Выберите предпочитаемый язык / Select language:</string>
+    <string name="onboarding_step1_title">Выбор языка</string>
+    <string name="onboarding_step2_title">Конфиденциальность и безопасность</string>
+    <string name="onboarding_step3_title">Необходимые разрешения</string>
+    <string name="onboarding_step4_title">Все готово</string>
+    <string name="onboarding_ready_title">Готово для безопасных ночных поездок!</string>
+    <string name="onboarding_ready_desc">ScreenShade сохранит зрение и комфорт ваших глаз благодаря мягкому программному затемнению.</string>
+
+    <string name="privacy_title" formatted="false">100% Оффлайн и ноль слежки</string>
+    <string name="privacy_body">ScreenShade не имеет разрешений на доступ в интернет. Никакой телеметрии, рекламы и трекеров. Полное соответствие GDPR.</string>
+    
+    <string name="disclaimer_safety_title">Безопасность вождения и лицензия</string>
+    <string name="disclaimer_safety_body">ВНИМАНИЕ: Не изменяйте настройки во время движения автомобиля. ScreenShade распространяется под лицензией GNU GPLv3 \"КАК ЕСТЬ\". Вы несете полную ответственность за читаемость дисплея и дорожную безопасность.</string>
+    <string name="disclaimer_accept_checkbox">Я понимаю и принимаю условия</string>
+
+    <!-- Поддержка Ko-fi -->
+    <string name="kofi_card_desc">ScreenShade — полностью свободное и бесплатное приложение. Если оно полезно вам в ночных поездках, угостите автора кофе!</string>
+    <string name="kofi_button_label">Угостить кофе на Ko-fi</string>
+    <string name="kofi_btn_label">Угостить кофе на Ko-fi</string>
+
+    <!-- Автоматизация -->
+    <string name="automation_title">Broadcast API и автоматизация</string>
+    <string name="automation_desc">Управление ScreenShade из Tasker, MacroDroid или через команды ADB:</string>
+    <string name="switch_external_automation">Включить внешнюю автоматизацию</string>
+    <string name="switch_external_automation_desc">Позволяет внешним приложениям (Tasker, MacroDroid) или командам ADB shell управлять ScreenShade через широковещательные сообщения. Отключено по умолчанию для безопасности.</string>
+    <string name="automation_toggle">Переключение: am broadcast -a com.screenshade.ACTION_TOGGLE</string>
+    <string name="automation_start">Старт: am broadcast -a com.screenshade.ACTION_START</string>
+    <string name="automation_stop">Стоп: am broadcast -a com.screenshade.ACTION_STOP</string>
+    <string name="automation_dim">Яркость: am broadcast -a com.screenshade.ACTION_SET_BRIGHTNESS --ef brightness 0.45</string>
+    <string name="automation_filter">Фильтр: am broadcast -a com.screenshade.ACTION_SET_FILTER --es filter WARM</string>
+
+    <!-- Legal disclaimer and Ko-fi -->
+    <string name="legal_disclaimer_title">Правовое уведомление и безопасность дорожного движения</string>
+    <string name="legal_disclaimer_automotive">"ПРЕДУПРЕЖДЕНИЕ О БЕЗОПАСНОСТИ ДВИЖЕНИЯ: Это приложение — инструмент с открытым исходным кодом, предоставляемый 'КАК ЕСТЬ' ('AS IS'), без каких-либо явных или подразумеваемых гарантий. Пользователь несёт единоличную ответственность за соблюдение правил дорожного движения и безопасность во время вождения. Строго запрещено взаимодействовать с интерфейсом или менять настройки во время движения. Разработчик не несёт гражданской или уголовной ответственности за аварии, административные штрафы, механические или электронные неисправности, а также сбои автомагнитолы/бортовой системы, прямо или косвенно связанные с использованием приложения."</string>
+    <string name="legal_accept">Понимаю и принимаю</string>
+    <string name="legal_exit">Выход</string>
+    <string name="kofi_card_title">Поддержите независимую разработку</string>
+    <string name="kofi_card_description">Это программное обеспечение полностью бесплатно, имеет открытый исходный код (GNU GPLv3) и не содержит рекламы, отслеживания или профилирования. Если вам нравится проект и вы хотите поддержать время, потраченное на разработку, вы можете угостить меня кофе на Ko-fi в виде свободного добровольного пожертвования. Никаких функций, услуг или дополнительных преимуществ взамен не предоставляется.</string>
+
+    <!-- GitHub Open Source Bridge (Google Play compliant) -->
+    <string name="github_card_title">Проект с открытым исходным кодом</string>
+    <string name="github_card_description" formatted="false">ScreenShade — это 100% свободное программное обеспечение с открытым исходным кодом (GNU GPLv3). Изучайте код, участвуйте в разработке или сообщайте об ошибках на GitHub.</string>
+    <string name="github_button_label">Открыть на GitHub</string>
+</resources>

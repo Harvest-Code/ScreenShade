@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Zero internet permissions: 100% offline -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:name=".ScreenShadeApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScreenShade">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.OverlayService"
+            android:exported="false"
+            android:directBootAware="true"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Screen overlay and software brightness control" />
+        </service>
+
+        <service
+            android:name=".service.BootWatchdogJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <!-- Car MCU & Head Unit Deep Sleep / Fast Boot Wakeup Broadcasts -->
+                <action android:name="autochips.intent.action.ACC_ON" />
+                <action android:name="com.ts.main.action.ACC_ON" />
+                <action android:name="com.microntek.bootcheck" />
+                <action android:name="com.syu.canbus.action.ACC_ON" />
+                <action android:name="com.syu.ms.action.ACC_ON" />
+                <action android:name="com.fyt.boot" />
+                <action android:name="com.fyt.system.acc.on" />
+                <action android:name="com.zjinnova.boot" />
+                <action android:name="com.ts.car.acc.on" />
+                <action android:name="com.microntek.canbus.acc" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.AutomationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.screenshade.ACTION_SET_BRIGHTNESS" />
+                <action android:name="com.screenshade.ACTION_SET_FILTER" />
+                <action android:name="com.screenshade.ACTION_TOGGLE" />
+                <action android:name="com.screenshade.ACTION_START" />
+                <action android:name="com.screenshade.ACTION_STOP" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

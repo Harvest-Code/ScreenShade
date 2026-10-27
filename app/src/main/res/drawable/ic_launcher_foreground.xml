@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Moon and shade icon -->
+    <path
+        android:fillColor="#FFD0BCFF"
+        android:pathData="M54,28c-14.36,0 -26,11.64 -26,26s11.64,26 26,26c11.05,0 20.47,-6.89 24.16,-16.63 -1.88,0.59 -3.88,0.91 -5.96,0.91 -11.05,0 -20,-8.95 -20,-20 0,-4.52 1.5,-8.69 4.02,-12.04C59.21,29.35 56.68,28 54,28z" />
+</vector>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenShade</string>
+    <string name="toolbar_title">🕶️ ScreenShade</string>
+    <string name="toolbar_subtitle">屏幕滤镜与超低亮度调光</string>
+    <string name="hero_desc">软件遮光遮罩：超越硬件最低亮度限制，调节夜间屏幕光线，呵护双眼。</string>
+    <string name="solar_sunrise_chip">☀️ %1$s</string>
+    <string name="solar_sunset_chip">🌙 %1$s</string>
+    <string name="solar_phase_format">阶段: %1$s</string>
+    <string name="solar_phase_default">阶段: --</string>
+    <string name="solar_phase_day">白天</string>
+    <string name="solar_phase_twilight">暮光</string>
+    <string name="solar_phase_night">夜晚</string>
+    <string name="status_pill_active">已激活</string>
+    <string name="status_pill_inactive">未激活</string>
+
+    <!-- 导航与菜单 -->
+    <string name="menu_language">语言</string>
+    <string name="menu_kofi">在 Ko-fi 上支持作者</string>
+    <string name="menu_github">源代码 (GitHub)</string>
+    <string name="menu_automation">自动化与 API</string>
+    <string name="menu_disclaimer">法律信息与免责声明</string>
+    <string name="menu_settings">设置</string>
+
+    <!-- 通用按钮与 FAB -->
+    <string name="btn_close">关闭</string>
+    <string name="close_button">关闭</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_finish">开始使用</string>
+    <string name="quick_toggle_shade">切换遮光</string>
+    <string name="overlay_status_active">悬浮层已激活</string>
+    <string name="overlay_status_inactive">悬浮层未激活</string>
+    <string name="btn_turn_on">开启</string>
+    <string name="btn_turn_off">关闭</string>
+    <string name="fab_activate">启用 ScreenShade</string>
+    <string name="fab_active">遮光已开启</string>
+
+    <!-- 状态标签 -->
+    <string name="status_badge_active">已激活</string>
+    <string name="status_badge_inactive">未激活</string>
+    <string name="status_mode_manual">手动模式</string>
+    <string name="status_mode_solar">日光联动 (NOAA)</string>
+
+    <!-- 快捷预设 -->
+    <string name="section_presets">快捷预设</string>
+    <string name="preset_day">日间 / 休息</string>
+    <string name="preset_night">深夜护眼</string>
+    <string name="preset_cinema">影院模式</string>
+    <string name="preset_reading">阅读 / 羊皮纸</string>
+    <string name="preset_mono">纯黑白单色</string>
+
+    <!-- 法律与免责声明 -->
+    <string name="legal_dialog_title">法律信息与 GNU GPLv3 许可</string>
+    <string name="legal_dialog_content" formatted="false">GNU 通用公共许可证 (v3.0)\n\nScreenShade 是一款自由开源软件：您可以根据自由软件基金会发布的 GNU 通用公共许可证条款重新分发和/或修改本软件。\n\n按原样提供 (\"AS-IS\") 免责声明：\n分发本程序的目的是希望它能发挥作用，但不提供任何保证；甚至不包含对适销性或特定用途适用性的暗示保证。\n\n行车安全警告：\n在驾驶机动车辆时，请勿操作本软件。用户需对屏幕可见度和道路安全负完全责任。\n\n隐私保证：\n100% 离线运行，零网络权限，无任何遥测或数据收集。</string>
+
+    <!-- 服务通知 -->
+    <string name="notification_channel_name">ScreenShade 运行中</string>
+    <string name="notification_channel_desc">保持遮光悬浮窗运行的常驻通知</string>
+    <string name="notification_title">ScreenShade 正在运行</string>
+    <string name="notification_text">软件调光与色彩滤镜已激活</string>
+    <string name="notification_status_format">遮光深度: %1$d%% | %2$s</string>
+    <string name="notification_action_stop">停止</string>
+
+    <!-- 主控面板 -->
+    <string name="section_overlay">屏幕遮罩调光控制</string>
+    <string name="switch_overlay">启用遮光悬浮层</string>
+    <string name="switch_overlay_desc">突破硬件最低亮度限制，进一步降低亮度</string>
+    
+    <string name="label_brightness">软件调光（遮罩深度）</string>
+    <string name="desc_brightness" formatted="false">叠加一层半透明黑纱遮罩 (0% - 90%)</string>
+
+    <string name="section_filters">色彩与防蓝光滤镜</string>
+    <string name="filter_none">无（中性）</string>
+    <string name="filter_warm">暖光 / 防蓝光</string>
+    <string name="filter_sepia">羊皮纸阅读</string>
+    <string name="filter_mono">灰度（高对比黑白）</string>
+    <string name="filter_custom">自定义 RGB 色调</string>
+
+    <string name="label_filter_intensity">滤镜强度</string>
+    <string name="label_transition_speed">平滑过渡时间</string>
+    <string name="transition_fast">快速 (500ms)</string>
+    <string name="transition_normal">顺畅 (1.5秒)</string>
+    <string name="transition_slow">柔和 (5秒)</string>
+
+    <!-- 太阳能引擎 -->
+    <string name="section_solar">天文太阳算法引擎</string>
+    <string name="switch_solar">动态日光模式</string>
+    <string name="switch_solar_desc">根据太阳高度角自动调节亮度和暖光色调</string>
+    <string name="solar_status_elevation">太阳高度角: %1$.1f°</string>
+    <string name="solar_status_sunrise">日出时间: %1$s</string>
+    <string name="solar_status_sunset">日落时间: %1$s</string>
+    <string name="solar_status_twilight">民用暮光: %1$s</string>
+    <string name="solar_location_btn">更新地理位置</string>
+    <string name="solar_location_manual">手动坐标: 纬度 %1$.2f, 经度 %2$.2f</string>
+    <string name="solar_location_unavailable">定位不可用，正在使用手动坐标</string>
+
+    <!-- 启动项 -->
+    <string name="section_boot">车机 MCU 与系统开机自启</string>
+    <string name="switch_boot">开机自启</string>
+    <string name="switch_boot_desc">随 Android 或车机 MCU 唤醒自动运行</string>
+    <string name="switch_silent_boot">静默启动（无界面）</string>
+    <string name="switch_silent_boot_desc">在后台静默运行遮光服务，不弹出主界面</string>
+
+    <!-- 外观与主题 -->
+    <string name="section_appearance">外观与主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色主题</string>
+    <string name="theme_dark">深色主题（推荐车机使用）</string>
+
+    <!-- 权限 -->
+    <string name="permission_overlay_title">需要悬浮窗权限</string>
+    <string name="permission_overlay_desc">ScreenShade 需要“在其他应用上层显示”权限，以便在屏幕上叠加调光遮罩。</string>
+    <string name="permission_grant_btn">授予权限</string>
+    <string name="permission_status_granted">状态: 已授权 ✓</string>
+    <string name="permission_status_missing">状态: 尚未授权</string>
+
+    <!-- 引导向导 -->
+    <string name="onboarding_title">欢迎使用 ScreenShade</string>
+    <string name="onboarding_step_format">第 %1$d 步，共 %2$d 步</string>
+    <string name="onboarding_select_lang_prompt">请选择您的偏好语言 / Select language:</string>
+    <string name="onboarding_step1_title">选择语言</string>
+    <string name="onboarding_step2_title">隐私与行车安全声明</string>
+    <string name="onboarding_step3_title">必要权限</string>
+    <string name="onboarding_step4_title">准备就绪</string>
+    <string name="onboarding_ready_title">准备好享受安全舒适的夜间驾驶了！</string>
+    <string name="onboarding_ready_desc">ScreenShade 将通过柔和调光舒缓眼部疲劳，保护您的夜间行车视线。</string>
+
+    <string name="privacy_title" formatted="false">100% 离线 &amp; 零追踪</string>
+    <string name="privacy_body">ScreenShade 无任何联网权限。没有遥测，没有广告，没有任何追踪器。数据绝不离开设备，严格保障隐私。</string>
+    
+    <string name="disclaimer_safety_title">行车安全与免责条款</string>
+    <string name="disclaimer_safety_body">警告：请勿在驾驶机动车辆时调节设置。ScreenShade 基于 GNU GPLv3 许可证按“原样”提供，不包含任何明示或暗示的保证。用户需对屏幕可见性和行车安全负全责。</string>
+    <string name="disclaimer_accept_checkbox">我已阅读并同意上述条款</string>
+
+    <!-- Ko-fi 赞助 -->
+    <string name="kofi_card_desc">ScreenShade 是一款完全免费的开源自由软件。如果它对您的夜间行车或车机屏幕有所帮助，欢迎请作者喝一杯咖啡！</string>
+    <string name="kofi_button_label">在 Ko-fi 上请喝咖啡</string>
+    <string name="kofi_btn_label">在 Ko-fi 上请喝咖啡</string>
+
+    <!-- 自动化 -->
+    <string name="automation_title">广播 API 与自动化控制</string>
+    <string name="automation_desc">支持 Tasker、MacroDroid 或 ADB 命令外部调用：</string>
+    <string name="switch_external_automation">启用外部自动化</string>
+    <string name="switch_external_automation_desc">允许外部应用（Tasker、MacroDroid）或 ADB 命令通过广播控制 ScreenShade。为行车安全默认禁用。</string>
+    <string name="automation_toggle">切换: am broadcast -a com.screenshade.ACTION_TOGGLE</string>
+    <string name="automation_start">开启: am broadcast -a com.screenshade.ACTION_START</string>
+    <string name="automation_stop">关闭: am broadcast -a com.screenshade.ACTION_STOP</string>
+    <string name="automation_dim">亮度: am broadcast -a com.screenshade.ACTION_SET_BRIGHTNESS --ef brightness 0.45</string>
+    <string name="automation_filter">滤镜: am broadcast -a com.screenshade.ACTION_SET_FILTER --es filter WARM</string>
+
+    <!-- Legal disclaimer and Ko-fi -->
+    <string name="legal_disclaimer_title">法律声明与行车安全</string>
+    <string name="legal_disclaimer_automotive">行车安全警告：本应用是开源工具，按“现状”（“AS IS”）提供，不附带任何明示或暗示的保证。用户须自行负责遵守交通法规并确保驾驶安全。严禁在车辆行驶过程中操作用户界面或更改设置。对于因使用本应用而直接或间接造成的事故、行政处罚、机械或电子故障，或车机/车载系统故障，开发者不承担任何民事或刑事责任。</string>
+    <string name="legal_accept">我已了解并接受</string>
+    <string name="legal_exit">退出</string>
+    <string name="kofi_card_title">支持独立开发</string>
+    <string name="kofi_card_description">本软件完全免费、开源（GNU GPLv3），没有广告、跟踪或用户画像。如果您喜欢这个项目并希望支持开发所投入的时间，可以在 Ko-fi 上以自由自愿捐赠的方式请我喝杯咖啡。作为回报，不提供任何功能、服务或额外权益。</string>
+
+    <!-- GitHub Open Source Bridge (Google Play compliant) -->
+    <string name="github_card_title">开源项目</string>
+    <string name="github_card_description" formatted="false">ScreenShade 是一款 100% 自由开源软件 (GNU GPLv3)。欢迎在 GitHub 上查看源码、贡献代码或反馈问题。</string>
+    <string name="github_button_label">在 GitHub 上查看</string>
+</resources>

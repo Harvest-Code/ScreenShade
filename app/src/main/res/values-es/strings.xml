@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenShade</string>
+    <string name="toolbar_title">🕶️ ScreenShade</string>
+    <string name="toolbar_subtitle">Filtro de Pantalla y Brillo Mínimo</string>
+    <string name="hero_desc">Velo de Atenuación por Software: reduce el brillo por debajo del límite del hardware protegiendo la vista durante la conducción nocturna.</string>
+    <string name="solar_sunrise_chip">☀️ %1$s</string>
+    <string name="solar_sunset_chip">🌙 %1$s</string>
+    <string name="solar_phase_format">Fase: %1$s</string>
+    <string name="solar_phase_default">Fase: --</string>
+    <string name="solar_phase_day">Día</string>
+    <string name="solar_phase_twilight">Crepúsculo</string>
+    <string name="solar_phase_night">Noche</string>
+    <string name="status_pill_active">ACTIVO</string>
+    <string name="status_pill_inactive">INACTIVO</string>
+
+    <!-- Navegación y Menú -->
+    <string name="menu_language">Idioma</string>
+    <string name="menu_kofi">Apoyar en Ko-fi</string>
+    <string name="menu_github">Código Fuente (GitHub)</string>
+    <string name="menu_automation">Automatización y API</string>
+    <string name="menu_disclaimer">Avisos Legales y Descargo</string>
+    <string name="menu_settings">Ajustes</string>
+
+    <!-- Botones Comunes y FAB -->
+    <string name="btn_close">Cerrar</string>
+    <string name="close_button">Cerrar</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_back">Atrás</string>
+    <string name="btn_finish">Empezar</string>
+    <string name="quick_toggle_shade">Alternar Filtro</string>
+    <string name="overlay_status_active">Superposición Activa</string>
+    <string name="overlay_status_inactive">Superposición Inactiva</string>
+    <string name="btn_turn_on">Activar</string>
+    <string name="btn_turn_off">Desactivar</string>
+    <string name="fab_activate">Activar ScreenShade</string>
+    <string name="fab_active">Filtro Activo</string>
+
+    <!-- Insignias de Estado -->
+    <string name="status_badge_active">ACTIVO</string>
+    <string name="status_badge_inactive">INACTIVO</string>
+    <string name="status_mode_manual">Modo Manual</string>
+    <string name="status_mode_solar">Solar Dinámico (NOAA)</string>
+
+    <!-- Ajustes Rápidos -->
+    <string name="section_presets">Ajustes Rápidos</string>
+    <string name="preset_day">Día / Reposo</string>
+    <string name="preset_night">Noche Profunda</string>
+    <string name="preset_cinema">Cine</string>
+    <string name="preset_reading">Lectura / Sepia</string>
+    <string name="preset_mono">B/N Puro</string>
+
+    <!-- Información Legal y Descargo -->
+    <string name="legal_dialog_title">Información Legal y Licencia GNU GPLv3</string>
+    <string name="legal_dialog_content" formatted="false">LICENCIA PÚBLICA GENERAL DE GNU (v3.0)\n\nScreenShade es software libre y de código abierto: puede redistribuirlo y/o modificarlo según los términos de la Licencia Pública General GNU publicada por la Free Software Foundation.\n\nAVISO \"TAL CUAL\" (\"VIBE-CODED\"):\nEste programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR.\n\nSEGURIDAD VIAL:\nNo ajuste la configuración mientras conduce un vehículo motorizado. Usted asume la total responsabilidad legal por la legibilidad de la pantalla y la seguridad vial.\n\nPRIVACIDAD:\n100% sin conexión, cero permisos de internet, cero telemetría y sin recopilación de datos.</string>
+
+    <!-- Notificación del Servicio -->
+    <string name="notification_channel_name">ScreenShade Activo</string>
+    <string name="notification_channel_desc">Notificación persistente para mantener activo el filtro atenuador</string>
+    <string name="notification_title">ScreenShade en Ejecución</string>
+    <string name="notification_text">Atenuación por software y filtro cromático activos</string>
+    <string name="notification_status_format">Atenuación: %1$d%% | %2$s</string>
+    <string name="notification_action_stop">Detener</string>
+
+    <!-- Panel Principal -->
+    <string name="section_overlay">Control de Superposición</string>
+    <string name="switch_overlay">Activar Velo Superpuesto</string>
+    <string name="switch_overlay_desc">Atenúa la pantalla por debajo del mínimo de hardware</string>
+    
+    <string name="label_brightness">Atenuación Software (Profundidad del Velo)</string>
+    <string name="desc_brightness" formatted="false">Añade un velo negro transparente (0% - 90%)</string>
+
+    <string name="section_filters">Filtros Cromáticos y Anti-Luz Azul</string>
+    <string name="filter_none">Ninguno (Neutro)</string>
+    <string name="filter_warm">Cálido / Anti-Luz Azul</string>
+    <string name="filter_sepia">Lectura Sepia</string>
+    <string name="filter_mono">Escala de Grises (Alto Contraste)</string>
+    <string name="filter_custom">Tinte RGB Personalizado</string>
+
+    <string name="label_filter_intensity">Intensidad del Filtro</string>
+    <string name="label_transition_speed">Velocidad de Transición</string>
+    <string name="transition_fast">Rápida (500ms)</string>
+    <string name="transition_normal">Fluida (1.5s)</string>
+    <string name="transition_slow">Gradual (5s)</string>
+
+    <!-- Motor Solar -->
+    <string name="section_solar">Motor Astronómico Solar</string>
+    <string name="switch_solar">Modo Solar Dinámico</string>
+    <string name="switch_solar_desc">Ajusta automáticamente atenuación y tinte según la elevación solar</string>
+    <string name="solar_status_elevation">Elevación Solar: %1$.1f°</string>
+    <string name="solar_status_sunrise">Amanecer: %1$s</string>
+    <string name="solar_status_sunset">Atardecer: %1$s</string>
+    <string name="solar_status_twilight">Crepúsculo Civil: %1$s</string>
+    <string name="solar_location_btn">Actualizar Ubicación</string>
+    <string name="solar_location_manual">Coordenadas: Lat %1$.2f, Lon %2$.2f</string>
+    <string name="solar_location_unavailable">Ubicación no disponible, usando coordenadas manuales</string>
+
+    <!-- Inicio y Arranque -->
+    <string name="section_boot">Arranque del Sistema y Radio MCU</string>
+    <string name="switch_boot">Iniciar al Arrancar el Sistema</string>
+    <string name="switch_boot_desc">Autoarranque al encender Android o la radio MCU</string>
+    <string name="switch_silent_boot">Arranque Silencioso (Headless)</string>
+    <string name="switch_silent_boot_desc">Ejecutar el servicio en segundo plano sin abrir la interfaz</string>
+
+    <!-- Aspecto y Tema -->
+    <string name="section_appearance">Aspecto y Tema</string>
+    <string name="theme_system">Seguir el Sistema</string>
+    <string name="theme_light">Tema Claro</string>
+    <string name="theme_dark">Tema Oscuro (Recomendado para Coches)</string>
+
+    <!-- Permisos -->
+    <string name="permission_overlay_title">Permiso de Superposición Requerido</string>
+    <string name="permission_overlay_desc">ScreenShade necesita permiso para \"Mostrar sobre otras aplicaciones\" con el fin de atenuar la pantalla bajo el límite físico.</string>
+    <string name="permission_grant_btn">Conceder Permiso</string>
+    <string name="permission_status_granted">Estado: Concedido ✓</string>
+    <string name="permission_status_missing">Estado: Permiso aún no concedido</string>
+
+    <!-- Asistente de Inicio -->
+    <string name="onboarding_title">Bienvenido a ScreenShade</string>
+    <string name="onboarding_step_format">Paso %1$d de %2$d</string>
+    <string name="onboarding_select_lang_prompt">Seleccione su idioma preferido / Select language:</string>
+    <string name="onboarding_step1_title">Seleccionar Idioma</string>
+    <string name="onboarding_step2_title">Privacidad y Seguridad Vial</string>
+    <string name="onboarding_step3_title">Permisos Necesarios</string>
+    <string name="onboarding_step4_title">Configuración Completa</string>
+    <string name="onboarding_ready_title">¡Listo para conducir de noche con seguridad!</string>
+    <string name="onboarding_ready_desc">ScreenShade mantendrá sus ojos descansados y preservará su visión nocturna con un oscurecimiento suave.</string>
+
+    <string name="privacy_title" formatted="false">100% Sin Conexión y Cero Rastreo</string>
+    <string name="privacy_body">ScreenShade no requiere NINGÚN permiso de internet. Sin telemetría, sin publicidad y sin rastreadores. Cumplimiento total con GDPR por diseño.</string>
+    
+    <string name="disclaimer_safety_title">Seguridad Vial y Licencia \"Tal Cual\"</string>
+    <string name="disclaimer_safety_body">ADVERTENCIA: No manipule los ajustes mientras conduce un vehículo. ScreenShade se distribuye bajo GNU GPLv3 \"TAL CUAL\", sin garantías de ningún tipo. Usted asume la responsabilidad total de visibilidad y seguridad.</string>
+    <string name="disclaimer_accept_checkbox">Entiendo y acepto los términos</string>
+
+    <!-- Donaciones Ko-fi -->
+    <string name="kofi_card_desc">ScreenShade es software libre y 100% gratuito. Si le resulta útil en sus trayectos nocturnos o en la radio de su coche, ¡invíteme a un café!</string>
+    <string name="kofi_button_label">Invítame a un Café en Ko-fi</string>
+    <string name="kofi_btn_label">Invítame a un Café en Ko-fi</string>
+
+    <!-- Automatización -->
+    <string name="automation_title">API de Difusión y Automatización</string>
+    <string name="automation_desc">Controle ScreenShade externamente usando Tasker, MacroDroid o comandos ADB:</string>
+    <string name="switch_external_automation">Habilitar Automatización Externa</string>
+    <string name="switch_external_automation_desc">Permite que aplicaciones externas (Tasker, MacroDroid) o comandos ADB controlen ScreenShade mediante difusión. Deshabilitado por defecto por seguridad vial.</string>
+    <string name="automation_toggle">Toggle: am broadcast -a com.screenshade.ACTION_TOGGLE</string>
+    <string name="automation_start">Start: am broadcast -a com.screenshade.ACTION_START</string>
+    <string name="automation_stop">Stop: am broadcast -a com.screenshade.ACTION_STOP</string>
+    <string name="automation_dim">Brillo: am broadcast -a com.screenshade.ACTION_SET_BRIGHTNESS --ef brightness 0.45</string>
+    <string name="automation_filter">Filtro: am broadcast -a com.screenshade.ACTION_SET_FILTER --es filter WARM</string>
+
+    <!-- Legal disclaimer and Ko-fi -->
+    <string name="legal_disclaimer_title">Aviso Legal y Seguridad Vial</string>
+    <string name="legal_disclaimer_automotive">"AVISO DE SEGURIDAD VIAL: Esta aplicación es una herramienta de código abierto proporcionada 'TAL CUAL' ('AS IS'), sin garantía expresa ni implícita. El usuario es el único responsable del cumplimiento de las normas de tráfico y de la seguridad durante la conducción. Queda terminantemente prohibido interactuar con la interfaz o modificar los ajustes con el vehículo en marcha. El desarrollador declina toda responsabilidad civil o penal por accidentes, sanciones administrativas, averías mecánicas o electrónicas, o fallos del autorradio/sistema de a bordo derivados directa o indirectamente del uso de la aplicación."</string>
+    <string name="legal_accept">Lo entiendo y acepto</string>
+    <string name="legal_exit">Salir</string>
+    <string name="kofi_card_title">Apoya el desarrollo independiente</string>
+    <string name="kofi_card_description">Este software es totalmente gratuito, de código abierto (GNU GPLv3) y sin anuncios, rastreo ni elaboración de perfiles. Si te gusta el proyecto y quieres apoyar el tiempo dedicado a desarrollarlo, puedes invitarme a un café en Ko-fi como donación libre y voluntaria. No se ofrece ninguna función, servicio ni beneficio adicional a cambio.</string>
+
+    <!-- GitHub Open Source Bridge (Google Play compliant) -->
+    <string name="github_card_title">Proyecto de Código Abierto</string>
+    <string name="github_card_description" formatted="false">ScreenShade es software 100% libre y de código abierto (GNU GPLv3). Explora el código fuente, contribuye o reporta incidencias en GitHub.</string>
+    <string name="github_button_label">Ver en GitHub</string>
+</resources>

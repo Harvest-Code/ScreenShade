@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenShade</string>
+    <string name="toolbar_title">🕶️ ScreenShade</string>
+    <string name="toolbar_subtitle">Filtro Schermo &amp; Luminosità Minima</string>
+    <string name="hero_desc">Velo di Oscuramento Software: abbassa la luminosità sotto il limite hardware proteggendo gli occhi durante la guida notturna.</string>
+    <string name="solar_sunrise_chip">☀️ %1$s</string>
+    <string name="solar_sunset_chip">🌙 %1$s</string>
+    <string name="solar_phase_format">Fase: %1$s</string>
+    <string name="solar_phase_default">Fase: --</string>
+    <string name="solar_phase_day">Giorno</string>
+    <string name="solar_phase_twilight">Crepuscolo</string>
+    <string name="solar_phase_night">Notte</string>
+    <string name="status_pill_active">ATTIVO</string>
+    <string name="status_pill_inactive">INATTIVO</string>
+
+    <!-- Navigazione e Menu -->
+    <string name="menu_language">Lingua</string>
+    <string name="menu_kofi">Supporta su Ko-fi</string>
+    <string name="menu_github">Codice Sorgente (GitHub)</string>
+    <string name="menu_automation">Automazione &amp; API</string>
+    <string name="menu_disclaimer">Note Legali &amp; Disclaimer</string>
+    <string name="menu_settings">Impostazioni</string>
+
+    <!-- Pulsanti Comuni & FAB -->
+    <string name="btn_close">Chiudi</string>
+    <string name="close_button">Chiudi</string>
+    <string name="btn_next">Avanti</string>
+    <string name="btn_back">Indietro</string>
+    <string name="btn_finish">Inizia</string>
+    <string name="quick_toggle_shade">Attiva/Disattiva Shade</string>
+    <string name="overlay_status_active">Overlay Attivo</string>
+    <string name="overlay_status_inactive">Overlay Disattivo</string>
+    <string name="btn_turn_on">Attiva</string>
+    <string name="btn_turn_off">Disattiva</string>
+    <string name="fab_activate">Attiva ScreenShade</string>
+    <string name="fab_active">Filtro Attivo</string>
+
+    <!-- Badge di Stato & Header -->
+    <string name="status_badge_active">ATTIVO</string>
+    <string name="status_badge_inactive">INATTIVO</string>
+    <string name="status_mode_manual">Modalità Manuale</string>
+    <string name="status_mode_solar">Dinamico Solare (NOAA)</string>
+
+    <!-- Preset Rapidi -->
+    <string name="section_presets">Preset Rapidi</string>
+    <string name="preset_day">Giorno / Riposo</string>
+    <string name="preset_night">Notte Profonda</string>
+    <string name="preset_cinema">Cinema</string>
+    <string name="preset_reading">Lettura / Seppia</string>
+    <string name="preset_mono">B&amp;N Puro</string>
+
+    <!-- Dialog Note Legali & Disclaimer -->
+    <string name="legal_dialog_title">Note Legali &amp; Licenza GNU GPLv3</string>
+    <string name="legal_dialog_content" formatted="false">LICENZA GNU GENERAL PUBLIC LICENSE (v3.0)\n\nScreenShade è software libero e open-source: puoi redistribuirlo e/o modificarlo secondo i termini della Licenza Pubblica Generica GNU pubblicata dalla Free Software Foundation.\n\nDISCLAIMER \"COSÌ COM\'È\" / ESCLUSIONE DI GARANZIA:\nQuesto software è fornito \"COSÌ COM\'È\" (\"AS IS\"), senza garanzie di alcun tipo, esplicite o implicite, incluse commerciabilità, idoneità a uno scopo particolare e assenza di vizi, nei limiti massimi consentiti dalla legge applicabile e con espressa esclusione di responsabilità salvo dolo o colpa grave ai sensi dell\'Art. 1229 del Codice Civile italiano.\n\nAVVISO CRITICO SICUREZZA STRADALE &amp; AUTOMOTIVE:\nÈ fatto divieto assoluto di interagire con l\'interfaccia utente o alterare le impostazioni con il veicolo in movimento. Prima di mettersi alla guida, il conducente ha l\'obbligo inderogabile di verificare in condizioni di sicurezza che il livello di attenuazione e il filtro cromatico non compromettano in alcun modo la visibilità della strumentazione di bordo, delle telecamere di retromarcia/manovra (ADAS) o dei sistemi di navigazione GPS. L\'utente si assume la piena ed esclusiva responsabilità legale per l\'uso del programma e la sicurezza stradale.\n\nEROGAZIONI LIBERALI E DONAZIONI:\nScreenShade è software 100% gratuito e libero. Eventuali contributi volontari tramite piattaforme terze (es. Ko-fi) costituiscono erogazioni liberali modiche spontanee (donazioni pure) prive di qualsiasi controprestazione, rapporto commerciale o garanzia di supporto.\n\nGARANZIA PRIVACY:\n100% offline, zero permessi internet, zero telemetria, zero raccolta dati.</string>
+
+    <!-- Notifica del Servizio -->
+    <string name="notification_channel_name">ScreenShade Attivo</string>
+    <string name="notification_channel_desc">Notifica persistente per mantenere attivo il controllo luminosità overlay</string>
+    <string name="notification_title">ScreenShade in Esecuzione</string>
+    <string name="notification_text">Oscuramento software e filtro cromatico attivi</string>
+    <string name="notification_status_format">Oscuramento: %1$d%% | %2$s</string>
+    <string name="notification_action_stop">Spegni</string>
+
+    <!-- Dashboard Principale -->
+    <string name="section_overlay">Controllo Oscuramento Overlay</string>
+    <string name="switch_overlay">Attiva Velo Overlay</string>
+    <string name="switch_overlay_desc">Abbassa la luminosità sotto il minimo hardware</string>
+    
+    <string name="label_brightness">Oscuramento Software (Profondità Velo)</string>
+    <string name="desc_brightness" formatted="false">Aggiunge un velo nero trasparente (0% - 90%)</string>
+
+    <string name="section_filters">Filtri Cromatici &amp; Anti-Luce Blu</string>
+    <string name="filter_none">Nessuno (Neutro)</string>
+    <string name="filter_warm">Caldo / Anti-Luce Blu</string>
+    <string name="filter_sepia">Lettura Seppia</string>
+    <string name="filter_mono">Monocromatico (Alto Contrasto)</string>
+    <string name="filter_custom">Tinta RGB Personalizzata</string>
+
+    <string name="label_filter_intensity">Intensità Filtro</string>
+    <string name="label_transition_speed">Velocità di Transizione</string>
+    <string name="transition_fast">Veloce (500ms)</string>
+    <string name="transition_normal">Fluida (1.5s)</string>
+    <string name="transition_slow">Graduale (5s)</string>
+
+    <!-- Motore Solare -->
+    <string name="section_solar">Motore Astronomico Solare</string>
+    <string name="switch_solar">Modalità Solare Dinamica</string>
+    <string name="switch_solar_desc">Regola automaticamente oscuramento e luce calda in base all\'altezza del sole</string>
+    <string name="solar_status_elevation">Elevazione Solare: %1$.1f°</string>
+    <string name="solar_status_sunrise">Alba: %1$s</string>
+    <string name="solar_status_sunset">Tramonto: %1$s</string>
+    <string name="solar_status_twilight">Crepuscolo Civile: %1$s</string>
+    <string name="solar_location_btn">Rileva Posizione</string>
+    <string name="solar_location_manual">Coordinate: Lat %1$.2f, Lon %2$.2f</string>
+    <string name="solar_location_unavailable">Posizione non disponibile, coordinate manuali in uso</string>
+
+    <!-- Avvio e Sistema -->
+    <string name="section_boot">Avvio Autoradio MCU &amp; Sistema</string>
+    <string name="switch_boot">Avvia all\'Avvio del Sistema</string>
+    <string name="switch_boot_desc">Autoavvio all\'accensione di Android / autoradio MCU</string>
+    <string name="switch_silent_boot">Avvio Silenzioso (Headless)</string>
+    <string name="switch_silent_boot_desc">Esegui l\'overlay in background senza aprire l\'interfaccia</string>
+
+    <!-- Tema -->
+    <string name="section_appearance">Aspetto &amp; Tema</string>
+    <string name="theme_system">Segui Sistema</string>
+    <string name="theme_light">Tema Chiaro</string>
+    <string name="theme_dark">Tema Scuro (Consigliato per Auto)</string>
+
+    <!-- Permessi -->
+    <string name="permission_overlay_title">Permesso Overlay Richiesto</string>
+    <string name="permission_overlay_desc">ScreenShade necessita del permesso \"Disegna su altre app\" per abbassare la luminosità sotto il minimo hardware consentito dal display.</string>
+    <string name="permission_grant_btn">Concedi Permesso</string>
+    <string name="permission_status_granted">Stato: Concesso ✓</string>
+    <string name="permission_status_missing">Stato: Permesso non ancora concesso</string>
+
+    <!-- Guida Onboarding -->
+    <string name="onboarding_title">Benvenuto su ScreenShade</string>
+    <string name="onboarding_step_format">Passo %1$d di %2$d</string>
+    <string name="onboarding_select_lang_prompt">Seleziona la tua lingua preferita / Select language:</string>
+    <string name="onboarding_step1_title">Selezione Lingua</string>
+    <string name="onboarding_step2_title">Privacy &amp; Sicurezza alla Guida</string>
+    <string name="onboarding_step3_title">Permessi Necessari</string>
+    <string name="onboarding_step4_title">Configurazione Completata</string>
+    <string name="onboarding_ready_title">Pronto per una guida notturna confortevole!</string>
+    <string name="onboarding_ready_desc">ScreenShade manterrà i tuoi occhi riposati e preserverà la visione notturna con un oscuramento morbido.</string>
+
+    <string name="privacy_title" formatted="false">100% Offline &amp; Zero Tracciamento</string>
+    <string name="privacy_body">ScreenShade non richiede NESSUN permesso internet. Zero telemetria, zero annunci, zero tracciatori e nessun dato personale lascia il tuo dispositivo. GDPR-compliant per progettazione.</string>
+    
+    <string name="disclaimer_safety_title">Sicurezza Stradale &amp; Licenza \"Così Com\'è\"</string>
+    <string name="disclaimer_safety_body">ATTENZIONE: Non regolare le impostazioni durante la guida di un veicolo. ScreenShade è software libero sotto licenza GNU GPLv3 \"AS-IS\", senza garanzie di alcun tipo. L\'utente è l\'unico responsabile per la visibilità dello schermo e la sicurezza stradale.</string>
+    <string name="disclaimer_accept_checkbox">Ho compreso e accetto i termini</string>
+
+    <!-- Donazioni Ko-fi -->
+    <string name="kofi_card_desc" formatted="false">ScreenShade è software 100% libero e gratuito. Se ti è utile per i tuoi viaggi notturni o sul display dell\'auto, puoi supportare lo sviluppo con una donazione libera su Ko-fi (nessuna funzione extra o controprestazione).</string>
+    <string name="kofi_button_label">Supporta con una donazione libera su Ko-fi</string>
+    <string name="kofi_btn_label">Supporta con una donazione libera su Ko-fi</string>
+
+    <!-- Dialog Automazione -->
+    <string name="automation_title">API Broadcast &amp; Automazione</string>
+    <string name="automation_desc">Controlla ScreenShade da app esterne come Tasker, MacroDroid o comandi ADB shell:</string>
+    <string name="switch_external_automation">Abilita Automazione Esterna</string>
+    <string name="switch_external_automation_desc">Permette ad app esterne (Tasker, MacroDroid) o comandi ADB di controllare ScreenShade via broadcast. Disabilitato per impostazione predefinita per sicurezza.</string>
+    <string name="automation_toggle">Toggle: am broadcast -a com.screenshade.ACTION_TOGGLE</string>
+    <string name="automation_start">Start: am broadcast -a com.screenshade.ACTION_START</string>
+    <string name="automation_stop">Stop: am broadcast -a com.screenshade.ACTION_STOP</string>
+    <string name="automation_dim">Luminosità: am broadcast -a com.screenshade.ACTION_SET_BRIGHTNESS --ef brightness 0.45</string>
+    <string name="automation_filter">Filtro: am broadcast -a com.screenshade.ACTION_SET_FILTER --es filter WARM</string>
+
+    <!-- Legal disclaimer and Ko-fi -->
+    <string name="legal_disclaimer_title">Avviso Legale &amp; Sicurezza Stradale</string>
+	<string name="legal_disclaimer_automotive">"AVVISO DI SICUREZZA STRADALE: Questa applicazione è uno strumento open-source fornito 'COSÌ COM\'È' ('AS IS'), senza garanzie di alcun tipo nei limiti massimi consentiti dalla legge applicabile (incluso l\'Art. 1229 c.c.). L\'utente è l\'unico ed esclusivo responsabile della conformità al Codice della Strada e della sicurezza durante la guida. È severamente vietato interagire con l\'interfaccia o modificare le impostazioni a veicolo in movimento. A veicolo fermo, il conducente deve accertarsi che l\'oscuramento non ostacoli la visione del cruscotto, delle telecamere di retromarcia (ADAS) e del navigatore. Lo sviluppatore declina ogni responsabilità civile o penale per incidenti, sanzioni, guasti meccanici o elettronici, o malfunzionamenti dell\'autoradio o del sistema di bordo derivanti dall\'uso del software."</string>
+    <string name="legal_accept">Ho capito e accetto</string>
+    <string name="legal_exit">Esci</string>
+    <string name="kofi_card_title">Supporta lo sviluppo indipendente</string>
+    <string name="kofi_card_description">Questo software è completamente gratuito, open source (GNU GPLv3) e privo di annunci pubblicitari, tracciamento o profilazione. Se apprezzi il progetto e vuoi supportare il tempo dedicato al suo sviluppo, puoi offrire un caffè su Ko-fi come libera donazione volontaria. Nessuna funzionalità, servizio o benefit aggiuntivo viene fornito in cambio.</string>
+
+    <!-- GitHub Open Source Bridge (Google Play compliant) -->
+    <string name="github_card_title">Progetto Open Source</string>
+    <string name="github_card_description" formatted="false">ScreenShade è software 100% libero e open source (GNU GPLv3). Esplora il codice sorgente, contribuisci o segnala problemi su GitHub.</string>
+    <string name="github_button_label">Visualizza su GitHub</string>
+</resources>
